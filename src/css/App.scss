@@ -1,0 +1,12 @@
+// color-variables
+$background-color: #21212c;
+$orange: #edae61;
+$component-color: #2e2e38;
+$font-color: #a1aaba;
+
+
+.App {
+    background-color: $background-color;
+    color: $orange;
+    border: 2px solid $component-color;
+}
