@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "894c944f5af00833f87eda6f331803d0",
+    "revision": "4aa1f4f01f2845d92a444ecf940f1d64",
     "url": "/radio-component/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/radio-component/static/css/2.cf651c74.chunk.css"
   },
   {
-    "revision": "992659e42425b9fbe003",
+    "revision": "87865f92ca43cc8bb1cd",
     "url": "/radio-component/static/css/main.4cdf469e.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/radio-component/static/js/2.ede5154e.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "992659e42425b9fbe003",
-    "url": "/radio-component/static/js/main.bdf3f68f.chunk.js"
+    "revision": "87865f92ca43cc8bb1cd",
+    "url": "/radio-component/static/js/main.59cbd4a0.chunk.js"
   },
   {
     "revision": "dd204f705958ec137d6d",
