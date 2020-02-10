@@ -2,11 +2,35 @@
 $background-color: #21212c;
 $orange: #edae61;
 $component-color: #2e2e38;
-$font-color: #a1aaba;
+$font-color: #e1e5eb;
 
+// routers
+@import 'Footer.scss';
+@import 'Header.scss';
+@import 'MainComponent.scss';
 
-.App {
+* {
+    font-family: 'Odibee Sans', cursive;
+    color: $font-color;
+    box-sizing: border-box;
+    word-break: break-word;
+
+}
+
+body {
+    margin: 0;
     background-color: $background-color;
-    color: $orange;
-    border: 2px solid $component-color;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#root {
+    height: 100vh;
+   h1{
+       width: 350px;
+       position: relative;
+       top: 40%;
+
+   }
 }

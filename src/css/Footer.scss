@@ -1,0 +1,29 @@
+.footer {
+    background-color: $background-color;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    height: 80px;
+    margin-bottom: 50px;
+    -webkit-box-shadow: 0 25px 15px -9px black;
+    -moz-box-shadow: 0 25px 15px -9px black;
+    box-shadow: 0 25px 15px -9px black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    p {
+        text-align: center;
+        padding-top: 5px;
+    }
+
+    .currently {
+        color: $orange;
+        font-size: 1.2em;
+        margin: 0;
+    }
+
+    .currently-radio {
+        font-size: 1.7em;
+        margin: 0;
+    }
+}

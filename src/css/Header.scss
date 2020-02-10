@@ -1,0 +1,20 @@
+.header {
+    width: 320px;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: $orange;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+
+    i {
+        padding: 20px;
+        font-size: 2em;
+    }
+
+    .station {
+        padding: 0 30px;
+        font-size: 2em;
+    }
+}
