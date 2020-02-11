@@ -7,13 +7,10 @@
     -webkit-box-shadow: 0 25px 15px -9px black;
     -moz-box-shadow: 0 25px 15px -9px black;
     box-shadow: 0 25px 15px -9px black;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
 
     p {
         text-align: center;
-        padding-top: 5px;
+        padding-top: 10px;
     }
 
     .currently {
