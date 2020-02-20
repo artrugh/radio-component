@@ -3,22 +3,33 @@ import React from 'react';
 import uuid from 'uuid';
 
 const RadioHeader = props => {
-    
+
     return (
         <div className="radio-details"
             key={uuid.v4()}
-            onClick={(() => props.onClick(props.index))} >
+            onClick={(() =>
+                props.radioOnIndex !== props.index ?
+                    props.setRadio(props.index) :
+                    props.setRadio()
+            )}>
             <h2
                 className="radio-link"
                 key={uuid.v4()}
                 style={{
-                    color: !props.active[props.index].status ? "#e1e5eb" : "#edae61"
-                }}>
+                    color: props.radio.status ?
+                        "#edae61" : "#e1e5eb"
+                }}  >
                 {props.radio.name}
             </h2>
-            <p key={uuid.v4()}>{props.radio.frequency}</p>
+            <p key={uuid.v4()}
+                style={{
+                    color: props.radio.status ?
+                        "#edae61" : "#e1e5eb"
+                }} >
+                {props.radio.frequency}
+            </p>
         </div>
     );
 }
-
 export default RadioHeader;
+

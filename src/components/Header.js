@@ -12,7 +12,7 @@ const Header = props => {
                 STATIONS
                 </h2>
             <i key={uuid.v4()} className="fas fa-power-off"
-                onClick={() => props.onClickStations()}></i>
+                onClick={() => props.turnOff()}></i>
         </div>
     );
 }
