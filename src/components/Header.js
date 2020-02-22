@@ -2,7 +2,7 @@ import React from 'react';
 
 import uuid from 'uuid';
 
-const Header = props => {
+const Header = ({turnOff}) => {
     return (
         <div key={uuid.v4()} className="header">
             <i key={uuid.v4()}
@@ -12,7 +12,7 @@ const Header = props => {
                 STATIONS
                 </h2>
             <i key={uuid.v4()} className="fas fa-power-off"
-                onClick={() => props.turnOff()}></i>
+                onClick={() => turnOff()}></i>
         </div>
     );
 }

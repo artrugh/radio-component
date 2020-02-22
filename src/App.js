@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react';
+import uuid from 'uuid';
 
 // style
 import './css/App.scss';
@@ -25,8 +26,9 @@ const App = () => {
     <>
       {isError && <h1>SORRY,<br />TRY IT AGAIN REFRESHING THE WEB</h1>}
       {isLoading ?
-        < h1 > LOADING ...</h1> :
+        < h1 key={uuid.v4()}> LOADING ...</h1> :
         <MainContainer
+        key={uuid.v4()}
           radios={radios} />}
     </>
   );
