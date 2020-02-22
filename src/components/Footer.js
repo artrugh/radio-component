@@ -1,6 +1,7 @@
 import React from 'react';
 
 const Footer = ({radioOn}) => {
+
     return (
         <div className="footer" >
             <p

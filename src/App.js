@@ -1,11 +1,10 @@
 import React, { useEffect } from 'react';
-import uuid from 'uuid';
 
 // style
 import './css/App.scss';
 
 //components
-import MainContainer from './components/MainContainer';
+import RadioStation from './containers/RadioStation';
 
 // helpers
 import { useDataApi } from './helpers/useHooks';
@@ -26,9 +25,8 @@ const App = () => {
     <>
       {isError && <h1>SORRY,<br />TRY IT AGAIN REFRESHING THE WEB</h1>}
       {isLoading ?
-        < h1 key={uuid.v4()}> LOADING ...</h1> :
-        <MainContainer
-        key={uuid.v4()}
+        < h1 > LOADING ...</h1> :
+        <RadioStation
           radios={radios} />}
     </>
   );

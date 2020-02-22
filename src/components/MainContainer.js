@@ -6,7 +6,7 @@ import RadioHeader from '../components/RadioHeader';
 import ImgContainer from '../components/ImgContainer';
 
 
-const MainContainer = ({setRadio, radios, index}) => {
+const MainContainer = ({setRadio, radios, index}) => {    
 
     return (
         <>
