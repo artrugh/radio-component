@@ -1,17 +1,15 @@
 import React from 'react';
 
-import uuid from 'uuid';
-
 const Header = ({turnOff}) => {
     return (
-        <div key={uuid.v4()} className="header">
-            <i key={uuid.v4()}
+        <div  className="header">
+            <i 
                 className="fas fa-chevron-left" ></i>
-            <h2 key={uuid.v4()}
+            <h2 
                 className="station" >
                 STATIONS
                 </h2>
-            <i key={uuid.v4()} className="fas fa-power-off"
+            <i  className="fas fa-power-off"
                 onClick={() => turnOff()}></i>
         </div>
     );
